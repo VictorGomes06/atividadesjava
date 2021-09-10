@@ -42,9 +42,9 @@ public class Jokenpo {
 
 		System.out.println();
 
-		while (quantidadeRodadas > 3  ) {
+		while (opcao > 3  ) {
 			System.out.println("Você não digitou um número entre 1 e 3 para escolher uma opção!");
-			contador ++;
+			
 		}
 
 			if (escolhaUsuario > 0 && escolhaUsuario <= 3) {
@@ -75,7 +75,7 @@ public class Jokenpo {
 			}
 			System.out.println("Máquina ganhou!");
 			
-
+			contador ++;
 		
 
 	}
