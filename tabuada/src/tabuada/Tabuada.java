@@ -9,7 +9,7 @@ public class Tabuada {
 		
 		int multiplicador1;
 		int multiplicador2;
-		int multiplicador3; 
+		int contador = 0; 
 		
 		Scanner leitor = new Scanner(System.in);
 		
@@ -22,9 +22,15 @@ public class Tabuada {
 		System.out.println("tabuada do " + multiplicador1);
 		System.out.println("----------------------");
 		
-		
+	
+		   while(contador < multiplicador2) {
+			contador ++;
+		   
+			int vezes = multiplicador1 * contador; 				
+			System.out.println(multiplicador1 + " x " + contador + " = " + vezes);
+		   
 
-
+		   }
+	
 	}
-
 }
